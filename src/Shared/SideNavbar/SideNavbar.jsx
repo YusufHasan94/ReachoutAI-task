@@ -2,7 +2,7 @@ import { FaRegComments, FaRegFileAlt, FaRegFolder, FaRegHandshake, FaThLarge, Fa
 
 const SideNavbar = () => {
     return (
-        <div className=" bg-slate-100 p-4">   
+        <div className=" bg-slate-100 p-4 hidden md:block">   
             <div className="flex flex-col items-center">
                 <h1 className="w-full text-center my-2 bg-green-600 text-white p-4 text-xl rounded-full">Create New Job +</h1>
                 <ul className="">

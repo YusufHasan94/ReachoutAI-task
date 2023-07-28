@@ -6,7 +6,7 @@ const CategoryTabs = () => {
     return (
         <div className='w-full m-10 bg-slate-50 rounded-xl'>
             <Tabs>
-                <TabList className="flex justify-between">
+                <TabList className="flex flex-col md:flex-row justify-between">
                     <Tab className="border-transparent p-4">Job Management</Tab>
                     <Tab className="border-transparent p-4">JD rewrite</Tab>
                     <Tab className="border-transparent p-4">Reachout</Tab>
@@ -17,9 +17,6 @@ const CategoryTabs = () => {
 
                 <TabPanel className="bg-white">
                     <Management></Management>
-                </TabPanel>
-                <TabPanel>
-                    <h2>Any content 2</h2>
                 </TabPanel>
             </Tabs>
         </div>

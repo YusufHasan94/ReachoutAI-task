@@ -2,8 +2,8 @@
 const Management = () => {
     return (
         <div>
-            <div className="flex gap-4">
-                <div className="w-1/2 p-4">
+            <div className="flex flex-col md:flex-row gap-4">
+                <div className="md:w-1/2 p-4">
                     <h1>Job Title</h1>
                     <input type="text" name="" id="" className="w-full border-2 border-gray-800 rounded-full p-1 my-2" defaultValue="Frontend Developer"/>
                     <h1>Hiring Manager</h1>
@@ -27,13 +27,13 @@ const Management = () => {
                         <option value="">Initial</option>
                     </select>
                 </div>
-                <div className="w-1/2 p-4">
+                <div className="md:w-1/2 p-4">
                     <h1>Upload your Job Description</h1>
-                    <div className="w-full border-2 border-dotted border-green-500 h-1/4 rounded-xl flex justify-center items-center my-2">
+                    <div className="w-full border-2 border-dotted border-green-500 h-44 rounded-xl flex justify-center items-center my-2">
                         <input type="file" name="" id=""  />
                     </div>
                     <h1>Job Description</h1>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Copy/paste your job description" className="w-full border-2  rounded-xl flex justify-center items-center my-2 p-2"></textarea>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Copy/paste your job description" className="w-full border-2 h-96 rounded-xl flex justify-center items-center my-2 p-2"></textarea>
                 </div>
             </div>
             <div className="w-full flex justify-end">

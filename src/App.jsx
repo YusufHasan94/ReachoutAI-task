@@ -6,7 +6,7 @@ import Submenu from "./Shared/Submenu/Submenu"
 function App() {
 
   return (
-    <div>
+    <div className="">
       <div>
         <Header></Header>
       </div>
