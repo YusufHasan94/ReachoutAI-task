@@ -4,7 +4,7 @@ const SideNavbar = () => {
     return (
         <div className=" bg-slate-100 p-4">   
             <div className="flex flex-col items-center">
-                <h1 className="w-3/4 text-center my-2 bg-green-600 text-white p-4 text-xl rounded-full">Create New Job +</h1>
+                <h1 className="w-full text-center my-2 bg-green-600 text-white p-4 text-xl rounded-full">Create New Job +</h1>
                 <ul className="">
                     <li className="flex items-center gap-4 text-xl my-2 hover:bg-slate-50 p-4 rounded-full"><FaRegFolder className="text-green-700"></FaRegFolder> My Jobs</li>
                     <li className="flex items-center gap-4 text-xl my-2 hover:bg-slate-50 p-4 rounded-full"><FaThLarge className="text-green-700"></FaThLarge> Dashboard</li>
